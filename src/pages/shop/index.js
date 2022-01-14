@@ -21,6 +21,7 @@ const Index = () => {
     return (
         <div className="shop__grid">
             {
+                
                 data.getProducts.map((product) => (
                     <div className="product__card" key={product._id}>
                         {product.title}
@@ -28,6 +29,7 @@ const Index = () => {
                     </div>
                 ) )
             }
+            uyguyguy
         </div>
     );
 }
