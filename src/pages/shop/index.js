@@ -1,7 +1,10 @@
 import React from 'react';
+import Link from "next/link";
 
 import { getProducts } from "../../graphql/queries/products";
 import { useQuery } from "@apollo/react-hooks";
+
+import ProductGrid from '../../components/product/ProductGrid/ProductGrid';
 
 const Index = () => {
 
